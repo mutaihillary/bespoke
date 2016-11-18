@@ -23,10 +23,9 @@ Header Section
 #header {
 	width:100%;
     height: auto;
-    color: white;
     padding: 0;
     margin: 0;
-    background: blue;
+    background: #fff;
     border: none;
 
 }
@@ -75,18 +74,20 @@ Header Section
 .navigation nav ul li{
     height: 100%;
     display: inline-block;
-    padding: 5px 10px;
+    padding: 0px 20px;
     font-size: 14px;
-    color: #ddd;
+    color: #fff;
+    border-right: 1px solid grey;
 }
 
 .navigation nav ul li a{
-    color: #ddd;
+    color: #000;
 }
 
 .navigation nav ul li:hover,
 .navigation nav ul li:active{
-    border-bottom: 4px solid #fff;
+    /*border-bottom: 4px solid #fff;*/
+    color: blue;
     cursor: pointer;
 }
 
@@ -142,6 +143,19 @@ Header Section
     margin-bottom: 20px;
     color: orange;
     font-weight: 700px;
+}
+.icon img{
+align-content: center;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 25PX;
+padding-right: 25PX;
+}
+
+.icon2 img{
+align-content: center;
+padding-top: 15px;
+padding-bottom: 10px;
 }
 
 @media (max-width: 1200px) {
@@ -308,62 +322,6 @@ Content Section
     border: none;
 }
 
-.discover-more {
-    color: #000;
-    padding-top: 40px;
-    background: #FAFAFA;
-    padding-left: 320px;
-}
-
-.discover-more a{
-    text-align: center;
-    color: #fff;
-    background: #F63C3D;
-    padding: 10px 30px;
-    font-family: 'Play', sans-serif;
-    margin-bottom: 5px;
-}
-
-.discover-more p{
-    margin-top: 20px;
-    color: #000;
-    margin-bottom: 20px;
-    font-size: 13px;
-}
-
-.color-bg {
-    background: #F63C3D;
-    padding-top: 400px;
-    padding-left: 100px;
-}
-
-.infinity-spaces {
-    padding-right: 300px;
-}
-
-.infinity-spaces h4{
-    font-family: 'Play', sans-serif;
-    color: #fff;
-    padding: 20px 0;
-}
-
-.infinity-spaces h3{
-    font-family: 'Play', sans-serif;
-    color: #fff;
-    font-size: 40px;
-    font-family: 'Play', sans-serif;
-    padding-bottom: 10px;
-}
-
-.infinity-spaces p{
-    color: #fff;
-    font-size: 13px;
-}
-
-.hr-line {
-    padding-top: 65px;
-    padding-bottom: 30px;
-}
 
 @media (max-width: 1200px) {
     .highlighted-projects {
@@ -385,65 +343,6 @@ Content Section
     }
 }
 
-.our-history{
-    font-size: 24;
-    text-align: center;
-    display: inline-block;
-    padding: 0 15px;
-    background: #FFFFFF;
-}
-
-.history{
-    padding-left: 300px;
-    padding-right: 30px;
-    padding-bottom: 120px;
-}
-
-.history h3{
-    color: #000;
-    font-size: 40px;
-    font-family: 'Play', sans-serif;
-    padding: 20px 0;
-}
-
-.history p{
-    color: #002;
-    margin-top: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-}
-
-.history .link{
-    color: #fff;
-    margin: 18px 0;
-    font-family: 'Play', sans-serif;
-    margin-bottom: 5px;
-    height: auto;
-    padding: 10px 0;
-}
-
-.history a{
-    text-align: center;
-    color: #fff;
-    background: #F63C3D;
-    padding: 10px 30px;
-    font-family: 'Play', sans-serif;
-    margin-bottom: 5px;
-    margin-top: 20px;
-}
-
-.sage-logo {
-    text-align: right;
-    padding-right: 300px;
-    float: right;
-    padding-top: 0px;
-    margin-top: -40px;
-}
-
-.sage-logo img{
-    text-align: center;
-    float: right;
-}
 
 .projects-types {
     padding-left: 300px;
@@ -476,12 +375,6 @@ Content Section
         padding-bottom: 30px;
         display: inline-block;
         width: 100%;
-    }
-
-    .history{
-        padding-left: 50px;
-        padding-right: 30px;
-        padding-bottom: 120px;
     }
 
 }
@@ -524,9 +417,9 @@ Lower Section
     }
 }
 
-.services h3{
+.services h4{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Play', sans-serif;
@@ -591,12 +484,12 @@ Lower Section
 .call-to-action {
     padding: 20px;
     margin: 10px 0;
-    background-color: black;
-    color: white;
+    background-color: #fff;
+    color: #000;
     float: right;
     padding: 30px 20px !important;
     text-align: center;
-    background: #362D30;
+    /*background: #362D30;*/
     width: 100%;
 }
 
@@ -627,9 +520,9 @@ Lower Section
     padding: 0 30px;
 }
 
-.journal h3{
+.journal h4{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Play', sans-serif;
@@ -692,12 +585,14 @@ Lower Section
     width: 100%;
     text-align: center;
     font-size: 12px;
-    color: #F63C3D;
+    color: #000;
     font-family: 'Play', sans-serif;
 }
 
-.journal-content button{
+#read button a{
     width: 100%;
+    background-color: yellow;
+    color: blue; 
     text-align: center;
     font-family: 'Play', sans-serif;
     margin-top: 20px;
@@ -714,68 +609,36 @@ Lower Section
     margin-top: 20px;
 }
 
-
-
-.more-articles {
-    text-align: center;
-    padding: 30PX;
+.footer{
+    align-content: center;
+    width: 100%;
 }
-
-.more-articles a{
-    font-size: 13px;
-    font-family: 'Play', sans-serif;
-    border-bottom: 3px solid #362D30;
-    color: #362D30
-}
-
-.very-much-impressed p{
-    color: #eee;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-}
-
-.very-much-impressed a{
-    color: #eee;
-    padding: 0;
-    margin: 0;
-    font-size: 70px;
-    margin-top: 170px;
-}
-
-.very-much-impressed img{
-    margin: 10px 30px;
-}
-/*..................................................................................
-
-Contact Section
-
-..................................................................................*/
-
-.contact {
-    text-align: center;
-    font-size: 24px;
-    display: inline-block;
-    padding: 0 30px;
-    background: #fff;
+.footer p a{
+    align-content: center;
+    width: 100%;
 }
 
 @media (min-width: 480px) {
-    .contact{
+    .footer{
         width: 100%
+        align-content:center;
     }
 }
 
 @media (min-width: 900px) {
-    .contact{
+    .footer{
         width: 100%;
+        align-content: center;
     }
 
 }
 
 @media (min-width: 1200px) {
-    .contact{
+    .footer{
         width: 100%
+        align-content:center;
     }
 
 }
+
+
