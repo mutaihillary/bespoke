@@ -383,3 +383,90 @@ Lower Section
     padding-right: 20px;
     border-bottom: 3px solid;
 }
+
+/*..................................................................................
+
+Lower Section
+
+..................................................................................*/
+
+.services {
+    text-align: left;
+    font-size: 24px;
+}
+
+.services h3{
+    text-align: left;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Play', sans-serif;
+}
+
+.services .col-3{
+    padding: 150px;
+    max-height: 500px;
+    padding: 0px;
+}
+
+.services .col-3{
+    padding: 150px;
+    max-height: 500px;
+    padding: 0px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+}
+
+.services .col-3 img{
+    padding-bottom: 10px;
+}
+
+.services .col-3 h4 {
+    font-size: 18px;
+}
+.services .col-3 p {
+    padding-top: 20px;
+    font-size: 13px;
+    margin: 15px;
+    margin: 0;
+}
+
+.services .col-3 p button{
+    padding-top: 20px;
+    font-size: 13px;
+    margin: 15px;
+    margin: 0;
+    color: blue;
+}
+
+.call-to-action {
+    padding: 20px;
+    margin: 10px 0;
+    /*background-color: black;*/
+    color: white;
+    float: right;
+    padding: 30px 20px !important;
+    text-align: center;
+    background: #362D30;
+}
+
+.call-to-action h4{
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    padding: 10px
+}
+
+.call-to-action p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px
+}
+
+.call-to-action a{
+    font-size: 12px;
+    font-family: 'Play', sans-serif;
+    padding-bottom:3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 3px solid;
+}
