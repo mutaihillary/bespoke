@@ -146,16 +146,18 @@ Header Section
 }
 .icon img{
 align-content: center;
-padding-top: 20px;
-padding-bottom: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
 padding-left: 25PX;
 padding-right: 25PX;
 }
 
 .icon2 img{
 align-content: center;
-padding-top: 15px;
+padding-top: 10px;
 padding-bottom: 10px;
+padding-left: 15px;
+padding-right: 10px;
 }
 
 @media (max-width: 1200px) {
@@ -273,30 +275,6 @@ Content Section
 
 ....................................................................................................................*/
 
-.projects{
-    padding: 0 !important;
-    background: #FAFAFA;
-}
-
-.highlighted-projects {
-    padding-left: 300px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    padding-top: 80px
-}
-
-.highlighted-projects p{
-    color: #000;
-    line-height: 22px
-}
-
-.highlighted-projects h3{
-    margin-top: 30px;
-    color: #000;
-    font-size: 40px;
-    font-family: 'Play', sans-serif;
-}
-
 .blank {
     background: #362D30;
     padding: 0px;
@@ -345,10 +323,10 @@ Content Section
 
 
 .projects-types {
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-bottom: 30px;
-    display: inline-block;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    /*display: inline-block;*/
     width: 100%;
 }
 
@@ -356,16 +334,23 @@ Content Section
     text-align: center;
     display: inline-block;
 }
-
+.projects-types img {
+    /*position: relative;*/
+    width: 100%
+}
 .projects-types h4 {
-    color: #F63C3D;
-    font-size: 40px;
-    padding-top: 20px;
+    position: absolute;
+    color: blue;
+    padding-left: 40%;
     font-family: 'Play', sans-serif;
 }
 
 .projects-types p {
-    font-size: 14px;
+    position: absolute;
+    padding-left: 35%;
+    top: 15px;
+   left: 0;
+    
 }
 
 @media (max-width: 1200px) {
@@ -390,7 +375,11 @@ Lower Section
     font-size: 24px;
     display: inline-block;
     padding: 0 30px;
-    background: #FAFAFA;
+    background: #fff;
+}
+
+.services button{
+color: blue;
 }
 
 @media (min-width: 480px) {
@@ -482,12 +471,13 @@ Lower Section
 }
 
 .call-to-action {
-    padding: 20px;
-    margin: 10px 0;
-    background-color: #fff;
+    padding: 5px;
+    margin: 5px 0;
+    /*background-color: #fff;*/
+    background: #FAFAFA;
     color: #000;
     float: right;
-    padding: 30px 20px !important;
+    padding: 5px 10px !important;
     text-align: center;
     /*background: #362D30;*/
     width: 100%;
