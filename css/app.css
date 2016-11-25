@@ -7,6 +7,7 @@ html, body {
     width: 100%;
     margin:0;
 	padding:0;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -117,30 +118,41 @@ Header Section
 
 .caption-text{
     width: 100%;
-    padding: 180px 30px;
-    background : url(../images/MAINN.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*background: violet;*/
+    padding: 0px 0px;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 0px;
 }
+.caption-text img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom:5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 .caption-text p{
+    position: absolute;
     font-size: 40px;
+    bottom: 300px;
+    left: 120px;
     text-align: left;
     font-family: 'Play', sans-serif;
     color: white;
     font-weight: 700px;
 }
 
-.caption-text h5{
-    padding: 18px 130px;
-    font-size: 18px;
+.caption-text a{
+    position: absolute;
+    padding: 1px 5px;
+    font-size: 16px;
+    bottom: 260px;
+    left: 110px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 20px;
     color: orange;
     font-weight: 700px;
 }
@@ -176,7 +188,7 @@ padding-right: 10px;
         color: #eee;
     }
 
-    .caption-text h5{
+    .caption-text a{
         padding: 18px 130px;
         font-size: 13px;
         text-align: center;
@@ -200,7 +212,7 @@ padding-right: 10px;
         color: #eee;
     }
 
-    .caption-text h5{
+    .caption-text a{
         padding: 50px 0px;
         font-size: 10px;
         text-align: center;
@@ -225,7 +237,7 @@ padding-right: 10px;
         color: #fff;
     }
 
-    .caption-text h5{
+    .caption-text a{
         padding: 50px 0px;
         font-size: 10px;
         text-align: center;
@@ -275,29 +287,36 @@ Content Section
 
 ....................................................................................................................*/
 
-.blank {
-    background: #362D30;
-    padding: 0px;
+.row journal padding{
+    position: absolute;
 }
-.journal-blank{
-    background-color: red;
-    padding: 0px;
+
+.blank-space img{
+width: 100%;
 }
-.col-3  {
-    width: 33.33%;
+
+.blank-space h6{
+position: relative;
+padding-top: 14px;
+color: #000;
 
 }
 
-.blank .col-3{
-    background: #362D30;
-    height: 200px;
-    border: none;
-}
+.button1 {
+position: relative;
+border-radius: 14px;
+padding: 14px;
+color: #000;
+background-color: gold;
 
-.blank .col-3{
-    background: #362D30;
-    height: 200px;
-    border: none;
+}
+.button2 {
+position: relative;
+border-radius: 14px;
+padding: 14px;
+color: #000;
+background-color: gold;
+
 }
 
 
@@ -348,7 +367,7 @@ Content Section
 .projects-types p {
     position: absolute;
     padding-left: 35%;
-    top: 15px;
+    top: 1715px;
    left: 0;
     
 }
@@ -378,8 +397,13 @@ Lower Section
     background: #fff;
 }
 
-.services button{
-color: blue;
+.button3{
+position: relative;
+border-radius: 14px;
+padding: 14px;
+color: #2e86c1;;
+border: solid 1px #2e86c1;;
+background-color: #fff;
 }
 
 @media (min-width: 480px) {
@@ -630,5 +654,12 @@ color: blue;
     }
 
 }
+.button4{
+position: relative;
+border-radius: 14px;
+padding: 14px;
+color: #000;
+background-color: gold;
 
+}
 
