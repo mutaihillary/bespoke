@@ -242,37 +242,6 @@ Header Section
     color: #8C8788;
 }
 
-.caption-text{
-    width: 100%;
-    padding: 200px 300px;
-    background: #362D30;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.caption-text p{
-    font-size: 70px;
-    text-align: center;
-    font-family: 'Play', sans-serif;
-}
-
-.caption-text h5{
-    padding: 18px 150px;
-    font-size: 18px;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: 20px
-}
-
-.caption-text a{
-    margin: 20px;
-    padding: 10px 20px;
-    font-size: 18px;
-    text-align: center;
-    background: #fff;
-    color: #000;
-    margin-left: 42%
-}
-
 .hrs {
     text-align: center;
     margin-top: 20px;
